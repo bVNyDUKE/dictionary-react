@@ -6,8 +6,8 @@ function ResultBox({ meanings }) {
   }
   return (
     <div className="space-y-3">
-      {meanings.map((data, index) => (
-        <div key={index}>
+      {meanings.map((data) => (
+        <div key={data.word}>
           <div>
             Word: {data.word}
           </div>
